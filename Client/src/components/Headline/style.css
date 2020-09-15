@@ -1,0 +1,16 @@
+.headlineCard {
+    border-radius: 15px;
+    margin: auto;
+    background-color: #201C19;
+    /* font-weight: lighter; */
+    text-align: center;
+}
+
+.headlineCard.content {
+    color: #fff;
+}
+
+.headlineCard.name {
+    margin-top: 40px;
+    color: #fff;
+}

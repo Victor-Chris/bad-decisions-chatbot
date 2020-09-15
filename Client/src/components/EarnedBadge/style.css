@@ -1,0 +1,28 @@
+.badgeCard {
+    border-radius: 15px;
+    margin: auto;
+    background-color: #1440DC;
+}
+
+.badgeImg {
+    width: 30%;
+    margin-left: calc(50% - (30% / 2) );
+}
+
+.badgeText {
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.badgeText.title {
+    color: #A1B3F1;
+}
+
+.badgeText.type {
+    margin-top: 10px;
+}
+
+.badgeText.content {
+    font-weight: lighter;
+}

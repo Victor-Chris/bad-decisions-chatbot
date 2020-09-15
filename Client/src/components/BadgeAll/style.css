@@ -1,0 +1,48 @@
+.allBadgeCard {
+    border-radius: 15px;
+    margin: auto;
+    background-color: #1440DC;
+}
+
+.allBadgeImg {
+    width: 30%;
+    margin-left: calc(50% - (30% / 2) );
+}
+
+.allBadgeText {
+    font-weight: bold;
+    text-align: center;
+    color: #A1B3F1;
+}
+
+.allBadgeText.type {
+    margin-top: 10px;
+}
+
+.badge-list ul {
+    width: 100%;
+    padding: 30px 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: -30px;
+}
+
+.badge-list ul li {
+    margin: auto;
+    padding-top: 20px;
+    width: 33%;
+    display: block;
+}
+
+.badge-list ul .badge-holder {
+    margin: auto;
+    border: 1px solid #000;
+    -webkit-box-shadow: -4px 4px 0 0 rgba(0,0,0,.2);
+    box-shadow: -4px 4px 0 0 rgba(0,0,0,.2);
+    width: 60px;
+    height: 60px;
+}

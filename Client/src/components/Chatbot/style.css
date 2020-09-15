@@ -1,0 +1,27 @@
+.chatbot-wrapper {
+    margin-top: calc(100vh / 10);
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+    .chatbot-wrapper {
+        width: 90%;
+    }
+}
+
+/* Overriden by ANTD CSS */
+.rsc-header-title {
+    color: #fff;
+}
+
+.rsc-os-option-element {
+    background-color: #127FFE !important;
+    color: #fff !important;
+}
+
+.rsc-ts-bubble {
+    max-width: 70% !important;
+    margin-top: 1px !important;
+}

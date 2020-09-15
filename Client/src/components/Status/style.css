@@ -1,0 +1,56 @@
+@media only screen and (max-width: 600px) {
+    .statusCard {
+        width: 90vh;
+    }
+}
+
+.statusCard {
+    border-radius: 15px;
+    width: 100% ;
+    margin: auto;
+    background-color: #000;
+}
+
+
+.userStatus {
+    text-align: center;
+}
+
+.userStatus.label {
+    font-weight: bold;
+    color: #7F8994;
+}
+
+.userStatus.value{
+    font-weight: bolder;
+    font-size: x-large;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.userStatus.new {
+    color: #FFFF00;
+    /* font-size: smaller; */
+}
+
+.gaugeClass {
+    margin-top: -10px;
+}
+
+.blink {
+    animation: blinker 0.6s linear infinite;
+    text-align: center;
+    background-color: #000;
+    background-image: url('/alert.png');
+    color: transparent;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes blinker {  
+    50% { opacity: 0; }
+}

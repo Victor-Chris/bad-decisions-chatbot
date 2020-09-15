@@ -1,0 +1,26 @@
+.tweetCard {
+    border-radius: 15px;
+    /* width: 35vh ; */
+    margin: auto;
+    background-color: #D4E5F7;
+}
+
+.tweetImg {
+    width: 100%;
+}
+
+.tweetName {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.tweetDescription {
+    color: #7f8994;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.tweetContent {
+    margin-top: 10px;
+    font-size: x-large;
+}
